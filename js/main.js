@@ -10,8 +10,8 @@ function gerarPDF() {
     PDF.text("Email:" + email.value,10,30)
     PDF.text("Telefone:" + telefone.value,10,40)
     PDF.text("Cidade:" + cidade.value,10,50)
-    PDF.text("UF:" + nome.value,10,60)
-    PDF.text("Endereço:" + nome.value,10,70)
+    PDF.text("UF:" + estado.value,10,60)
+    PDF.text("Endereço:" + endereco.value,10,70)
     
     PDF.save("Cadastro")
 }
